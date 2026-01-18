@@ -7,8 +7,8 @@
 	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <div id="accordion-group" class="accordion" data-accordion data-accordion-one>
-  	<h3 data-accordion-head>
+  <div id="accordion-group" class="accordion" data-accordion>
+  	<h3>
       <button
         type="button"
         class="accordion-trigger"
@@ -25,8 +25,7 @@
       id="sect-1"
       aria-labelledby="accordion-1-id"
       class="accordion-panel"
-      role="region
-      ">
+      role="region">
       <div>
         <fieldset>
           <p>
@@ -157,17 +156,153 @@
       </div>
     </div>
   </div>
+  <br><br>
+  <div id="accordion-group" class="accordion" data-accordion>
+  	<h3>
+      <button
+        type="button"
+        class="accordion-trigger"
+        aria-expanded="true"
+        aria-controls="sect-4"
+        id="accordion-4-id"
+      >
+       <span class="accordion-title">
+         Personal Information
+       </span>
+     </button>
+    </h3>
+    <div
+      id="sect-4"
+      aria-labelledby="accordion-4-id"
+      class="accordion-panel"
+      role="region">
+      <div>
+        <fieldset>
+          <p>
+            <label for="c-add-1">Name <span aria-hidden="true">*</span>:</label>
+            <input type="text" value="" name="Name" id="c-add-1" class="required" aria-required="true">
+          </p>
+          <p>
+            <label for="c-add-2">Email <span aria-hidden="true">*</span>:</label>
+            <input type="email" value="" name="Email" id="c-add-2" class="required" aria-required="true">
+          </p>
+          <p>
+            <label for="c-add-3">Phone:</label>
+            <input type="text" value="" name="Phone" id="c-add-3">
+          </p>
+          <p>
+            <label for="c-add-4">Extension:</label>
+            <input type="text" value="" name="Ext" id="c-add-4">
+          </p>
+          <p>
+            <label for="c-add-5">Country:</label>
+            <input type="text" value="" name="Country" id="c-add-5">
+          </p>
+          <p>
+            <label for="c-add-6">City/Province:</label>
+            <input type="text" value="" name="City_Province" id="c-add-6">
+          </p>
+        </fieldset>
+      </div>
+    </div>
 
-  <div data-accordion>
     <h3>
-      <button type="button" data-accordion-control>
-        Personal Information
+      <button
+        type="button"
+        class="accordion-trigger"
+        aria-expanded="false"
+        aria-controls="sect-5"
+        id="accordion-5-id"
+      >
+        <span class="accordion-title">
+          Personal Information
+        </span>
       </button>
     </h3>
-
-    <div data-accordion-body>
+    <div
+      id="sect-5"
+      aria-labelledby="accordion-5-id"
+      class="accordion-panel"
+      role="region"
+      hidden=""
+    >
       <div>
-        Content
+        <fieldset>
+          <p>
+            <label for="b-add-1">Name <span aria-hidden="true">*</span>:</label>
+            <input type="text" value="" name="Name" id="b-add-1" class="required" aria-required="true">
+          </p>
+          <p>
+            <label for="b-add-2">Email <span aria-hidden="true">*</span>:</label>
+            <input type="email" value="" name="Email" id="b-add-2" class="required" aria-required="true">
+          </p>
+          <p>
+            <label for="b-add-3">Phone:</label>
+            <input type="text" value="" name="Phone" id="b-add-3">
+          </p>
+          <p>
+            <label for="b-add-4">Extension:</label>
+            <input type="text" value="" name="Ext" id="b-add-4">
+          </p>
+          <p>
+            <label for="b-add-5">Country:</label>
+            <input type="text" value="" name="Country" id="b-add-5">
+          </p>
+          <p>
+            <label for="b-add-6">City/Province:</label>
+            <input type="text" value="" name="City_Province" id="b-add-6">
+          </p>
+        </fieldset>
+      </div>
+    </div>
+
+    <h3>
+      <button
+        type="button"
+        class="accordion-trigger"
+        aria-expanded="false"
+        aria-controls="sect-6"
+        id="accordion-6-id"
+      >
+        <span class="accordion-title">
+          Personal Information
+        </span>
+      </button>
+    </h3>
+    <div
+      id="sect-6"
+      aria-labelledby="accordion-6-id"
+      class="accordion-panel"
+      role="region"
+      hidden=""
+    >
+      <div>
+        <fieldset>
+          <p>
+            <label for="e-add-1">Name <span aria-hidden="true">*</span>:</label>
+            <input type="text" value="" name="Name" id="e-add-1" class="required" aria-required="true">
+          </p>
+          <p>
+            <label for="e-add-2">Email <span aria-hidden="true">*</span>:</label>
+            <input type="email" value="" name="Email" id="e-add-2" class="required" aria-required="true">
+          </p>
+          <p>
+            <label for="e-add-3">Phone:</label>
+            <input type="text" value="" name="Phone" id="e-add-3">
+          </p>
+          <p>
+            <label for="e-add-4">Extension:</label>
+            <input type="text" value="" name="Ext" id="e-add-4">
+          </p>
+          <p>
+            <label for="e-add-5">Country:</label>
+            <input type="text" value="" name="Country" id="e-add-5">
+          </p>
+          <p>
+            <label for="e-add-6">City/Province:</label>
+            <input type="text" value="" name="City_Province" id="e-add-6">
+          </p>
+        </fieldset>
       </div>
     </div>
   </div>
