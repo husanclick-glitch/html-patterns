@@ -9,13 +9,24 @@
 <body>
   <div id="accordion-group" class="accordion" data-accordion data-accordion-one>
   	<h3 data-accordion-head>
-      <button class="accordion-trigger" type="button" aria-expanded="true" aria-controls="sect-1" id="accordion-1-id">
+      <button
+        type="button"
+        class="accordion-trigger"
+        aria-expanded="true"
+        aria-controls="sect-1"
+        id="accordion-1-id"
+      >
        <span class="accordion-title">
          Personal Information
        </span>
      </button>
     </h3>
-    <div id="sect-1" aria-labelledby="accordion-1-id" class="accordion-panel" role="region">
+    <div
+      id="sect-1"
+      aria-labelledby="accordion-1-id"
+      class="accordion-panel"
+      role="region
+      ">
       <div>
         <fieldset>
           <p>
@@ -45,14 +56,27 @@
         </fieldset>
       </div>
     </div>
+
     <h3>
-      <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="sect-2" id="accordion-2-id">
-      <span class="accordion-title">
-        Personal Information
-      </span>
-    </button>
+      <button
+        type="button"
+        class="accordion-trigger"
+        aria-expanded="false"
+        aria-controls="sect-2"
+        id="accordion-2-id"
+      >
+        <span class="accordion-title">
+          Personal Information
+        </span>
+      </button>
     </h3>
-    <div id="sect-2" aria-labelledby="accordion-2-id" class="accordion-panel" role="region" hidden="">
+    <div
+      id="sect-2"
+      aria-labelledby="accordion-2-id"
+      class="accordion-panel"
+      role="region"
+      hidden=""
+    >
       <div>
         <fieldset>
           <p>
@@ -82,14 +106,27 @@
         </fieldset>
       </div>
     </div>
+
     <h3>
-      <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="sect-3" id="accordion-3-id">
-      <span class="accordion-title">
-        Personal Information
-      </span>
-    </button>
+      <button
+        type="button"
+        class="accordion-trigger"
+        aria-expanded="false"
+        aria-controls="sect-3"
+        id="accordion-3-id"
+      >
+        <span class="accordion-title">
+          Personal Information
+        </span>
+      </button>
     </h3>
-    <div id="sect-3" aria-labelledby="accordion-3-id" class="accordion-panel" role="region" hidden="">
+    <div
+      id="sect-3"
+      aria-labelledby="accordion-3-id"
+      class="accordion-panel"
+      role="region"
+      hidden=""
+    >
       <div>
         <fieldset>
           <p>
@@ -117,6 +154,20 @@
             <input type="text" value="" name="City_Province" id="e-add-6">
           </p>
         </fieldset>
+      </div>
+    </div>
+  </div>
+
+  <div data-accordion>
+    <h3>
+      <button type="button" data-accordion-control>
+        Personal Information
+      </button>
+    </h3>
+
+    <div data-accordion-body>
+      <div>
+        Content
       </div>
     </div>
   </div>
